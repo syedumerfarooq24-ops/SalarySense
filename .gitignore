@@ -1,0 +1,19 @@
+# Security & Secrets (CRITICAL)
+.env
+.env.local
+*.env
+
+# Backend / Python
+backend/venv/
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+
+# Frontend / Node & Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS Metadata
+.DS_Store
+Thumbs.db
