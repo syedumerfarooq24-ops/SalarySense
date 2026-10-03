@@ -74,7 +74,7 @@ APP_VERSION=1.0.0
 Run the FastAPI development server:
 
 Bash
-uvicorn app.main:app --reload --port 8000
+python -m uvicorn app.main:app --reload
 FastAPI Docs available at http://localhost:8000/docs
 
 3. Frontend Setup (React)
